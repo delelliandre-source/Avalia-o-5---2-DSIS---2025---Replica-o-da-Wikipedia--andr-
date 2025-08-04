@@ -73,15 +73,32 @@ h1,h2{
 }
 
 .table{
-    width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      color: #333;
-   
+    width: 10%;
+      border: #5f9475 solid 1px;
+      margin-top: 10px;
+      background-color: #f3f0f0;
+      padding: 10px;
+      text-align: center;
 }
+ th, td {
+      border: 1px solid #928989;
+      padding: 10px;
+      text-align: center;
+    }
+    .dark-mode th,td{
+      background-color:rgb(18, 1, 1);
+    }
+
+    thead {
+      background-color: #565252;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #c3b4b4;
+    }
  .dark-mode table{
       color: #fafafa;
-      background-color: #66aaff;
+      background-color:rgb(192, 178, 178) ;
       border: rgb(248, 8, 8);
     }
     .dark-mode .curiosidade {
