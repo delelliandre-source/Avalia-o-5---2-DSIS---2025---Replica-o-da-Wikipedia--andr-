@@ -1,0 +1,1 @@
+# Avalia-o-5---2-DSIS---2025---Replica-o-da-Wikipedia--andr-
